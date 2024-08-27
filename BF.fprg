@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="HP"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-30 11:28:33 PM"/>
+        <attribute name="created" value="SFA7REVTS1RPUC1WRzAzNTRSOzIwMjQtMDMtMzA7MTE6MDY6NTAgUE07MjQ0OQ=="/>
+        <attribute name="edited" value="SFA7REVTS1RPUC1WRzAzNTRSOzIwMjQtMDMtMzA7MTE6Mjg6MzMgUE07MTsyNTYy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="akar" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="akar" expression="0"/>
+            <while expression="akar^2 &lt; n">
+                <assign variable="akar" expression="1"/>
+                <assign variable="Hitung akar" expression="akar * akar"/>
+            </while>
+            <assign variable="Kurangi akar dengan" expression="1"/>
+            <output expression="Output akar sebagai akar dari n" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
